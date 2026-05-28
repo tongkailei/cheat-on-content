@@ -1,4 +1,4 @@
-﻿# Candidate Schema（候选项统一 schema）
+# Candidate Schema（候选项统一 schema）
 
 被这些子 skill 引用：`cheat-trends`、`cheat-recommend`、`cheat-init`、所有 `adapters/`。
 
@@ -167,4 +167,3 @@ def candidate_id(source: str, title: str, url: str = None) -> str:
 4. 优雅降级：如配置缺失（API key、cookie），返回空列表 + 在 stderr/log 写明原因，**不抛异常**
 
 详见 `adapters/HOWTO.md`（待批次 3 写）。
-

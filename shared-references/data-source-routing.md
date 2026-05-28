@@ -1,4 +1,4 @@
-﻿# Data Source Routing — 热点工具的触发与路由协议
+# Data Source Routing — 热点工具的触发与路由协议
 
 被 cheat-seed / cheat-trends 引用。规定**何时**调热点工具、**调哪个**、**不调时怎么办**。
 
@@ -147,4 +147,3 @@ cheat-seed Mode C 拿到数据后**不**直接进 brainstorm，先入 candidates
 4. CHANGELOG 标 MINOR
 
 不要把硬编码"aihot"/"trendradar-mcp" 写进 cheat-seed SKILL.md——保持 adapter 模型可扩展。
-

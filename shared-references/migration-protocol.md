@@ -1,4 +1,4 @@
-﻿# Migration Protocol（schema 演进哲学）
+# Migration Protocol（schema 演进哲学）
 
 被 `cheat-migrate` skill / `cheat-init` / SessionStart hook / 维护者引用。规定如何安全演进 `.cheat-state.json` schema 而不让老用户被打断。
 
@@ -147,4 +147,3 @@ fi
 - 用户手动 `rm .cheat-state.json.backup-*` 永远 OK
 
 不入版本控制：`.cheat-state.json.backup-*` 应在 `.gitignore` 里（已含 `.cheat-state.json` 通配规则）。
-

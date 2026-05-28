@@ -1,4 +1,4 @@
-﻿# Cadence Protocol（节奏协议）
+# Cadence Protocol（节奏协议）
 
 被这些子 skill 引用：`cheat-status`、`cheat-recommend`、`cheat-shoot`、`cheat-publish`、SessionStart hook。
 
@@ -192,4 +192,3 @@ user 说"抓热点" → cheat-trends → 候选池更新
 | Buffer 阈值 | 0/1/2/3-5/6+（按"篇"）| 0/1-2/3-5/>5（按"buffer_days"——按用户 cadence 派生） |
 | 推荐 2 条策略 | 1 稳 + 1 实验 | 同 |
 | SessionStart 报告 | CLAUDE.md 文字约束 + Claude 自觉 | hook 强制 + Claude 读 hook 输出 |
-

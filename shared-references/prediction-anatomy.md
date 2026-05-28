@@ -1,4 +1,4 @@
-﻿# Prediction Anatomy（预测日志解剖）
+# Prediction Anatomy（预测日志解剖）
 
 被这些子 skill 引用：`cheat-predict`、`cheat-retro`、`templates/prediction.template.md`。
 
@@ -330,4 +330,3 @@ cheat-retro 用此字段在 score-curve / bump 校准时区分两条数据线，
 | 第 5 次复盘"解锁完整预测" | 不需要解锁——一直完整。Confidence 等级随 calibration_samples 自动提升 |
 | Cold-start 期跳过 bucket / 锚点对比 / 反事实 | **不跳过**——锚点不够就显式标"N/A"，bucket 该写还写（概率分布需诚实平摊） |
 | 用 mode=cold-start 字段判断流程分支 | 删除字段。所有 skill 走同一流程，按 calibration_samples 渐进显示 confidence |
-
